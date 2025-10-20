@@ -1,0 +1,11 @@
+# Reference repository (not part of this project)
+sednaxml-ref/
+
+# Build-time generated directory (embedded by RustEmbed)
+sedna_install/
+
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+Cargo.lock

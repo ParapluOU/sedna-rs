@@ -1,0 +1,23 @@
+[package]
+name = "sedna-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luuk de Waal Malefijt"]
+description = "Embedded Sedna XML Database for Rust"
+license = "Apache-2.0"
+repository = "https://github.com/ParapluOU/sedna-rs"
+
+[lib]
+name = "sedna_rs"
+path = "src/lib.rs"
+
+[dependencies]
+tempfile = "3.10"
+libc = "0.2"
+thiserror = "1.0"
+once_cell = "1.19"
+rust-embed = "8.0"
+
+[build-dependencies]
+cc = "1.0"
+cmake = "0.1"
