@@ -1,0 +1,3 @@
+[submodule "sedna"]
+	path = sedna
+	url = https://github.com/parapluou/sedna.git
