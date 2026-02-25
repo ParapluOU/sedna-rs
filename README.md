@@ -6,6 +6,15 @@ An embedded Sedna XML Database for Rust.
 
 `sedna-rs` is a Rust library that embeds the [Sedna XML Database](http://sedna.org/), providing a complete XQuery-capable XML database that runs entirely within your Rust application. No external installation required - the database server binaries are compiled and embedded at build time.
 
+> ### Looking for IT services?
+> <img src="https://fromulo.com/codesociety.png" align="left" width="80" alt="CodeSociety">
+>
+> **[CodeSociety](https://codesocietyhub.com/)** is our consulting & contracting arm — specializing in
+> **IT architecture**, **XML authoring systems**, **FontoXML integration**, and **TerminusDB consulting**.
+> We build structured content platforms and data solutions that power digital publishing.
+>
+> **[Let's talk! &#8594;](https://codesocietyhub.com/contact.html)**
+
 ## Features
 
 - **Fully Embedded**: Database server binaries are embedded in your application
